@@ -46,49 +46,50 @@ const Contacts = () => {
           <ReactLoading type={"bars"} color={"#00b4d8"} />
         </center>
       ) : (
-        <div className="container">
-          <div className="jumbotron jumbotron-fluid">
+        <div className="container-fluid">
+          <div className="jumbotron">
             <h2 className="text-center head-text">Contact Register</h2>
           </div>
-
-          <div className="row">
-            <div className="col-md-5">
-              <ContactForm {...{ addOrEdit, currentId, contactObjects }} />
-            </div>
-            <div className="col-md-7" style={{ overflow: "auto" }}>
-              <table className="table table-borderless table-striped">
-                <thead className="thread-light">
-                  <tr>
-                    <th>Full Name</th>
-                    <th>Mobile</th>
-                    <th>Email</th>
-                    <th>Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.keys(contactObjects).map((id) => (
-                    <tr key={id}>
-                      <td>{contactObjects[id].fullname}</td>
-                      <td>{contactObjects[id].mobile}</td>
-                      <td>{contactObjects[id].email}</td>
-                      <td>
-                        <a
-                          className="btn text-primary"
-                          onClick={() => setCurrentId(id)}
-                        >
-                          <i className="fas fa-pencil-alt"></i>
-                        </a>
-                        <a
-                          className="btn text-danger"
-                          onClick={() => onDelete(id)}
-                        >
-                          <i className="fas fa-trash-alt"></i>
-                        </a>
-                      </td>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-5">
+                <ContactForm {...{ addOrEdit, currentId, contactObjects }} />
+              </div>
+              <div className="col-md-7" style={{ overflow: "auto" }}>
+                <table className="table table-borderless table-striped">
+                  <thead className="thread-light">
+                    <tr>
+                      <th>Full Name</th>
+                      <th>Mobile</th>
+                      <th>Email</th>
+                      <th>Actions</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {Object.keys(contactObjects).map((id) => (
+                      <tr key={id}>
+                        <td>{contactObjects[id].fullname}</td>
+                        <td>{contactObjects[id].mobile}</td>
+                        <td>{contactObjects[id].email}</td>
+                        <td className="row">
+                          <span
+                            className="btn text-primary col"
+                            onClick={() => setCurrentId(id)}
+                          >
+                            <i className="fas fa-pencil-alt"></i>
+                          </span>
+                          <span
+                            className="btn text-danger col"
+                            onClick={() => onDelete(id)}
+                          >
+                            <i className="fas fa-trash-alt"></i>
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>

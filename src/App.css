@@ -27,3 +27,7 @@ select.form-control:active {
   background-color: white;
   border: 1px solid #00b4d8;
 }
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
