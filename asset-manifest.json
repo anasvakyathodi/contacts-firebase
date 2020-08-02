@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/contacts-firebase/static/css/main.5f361e03.chunk.css",
+    "main.js": "/contacts-firebase/static/js/main.62b3e299.chunk.js",
+    "main.js.map": "/contacts-firebase/static/js/main.62b3e299.chunk.js.map",
+    "runtime-main.js": "/contacts-firebase/static/js/runtime-main.f56c32ec.js",
+    "runtime-main.js.map": "/contacts-firebase/static/js/runtime-main.f56c32ec.js.map",
+    "static/css/2.53823a3d.chunk.css": "/contacts-firebase/static/css/2.53823a3d.chunk.css",
+    "static/js/2.838cdcee.chunk.js": "/contacts-firebase/static/js/2.838cdcee.chunk.js",
+    "static/js/2.838cdcee.chunk.js.map": "/contacts-firebase/static/js/2.838cdcee.chunk.js.map",
+    "index.html": "/contacts-firebase/index.html",
+    "precache-manifest.25084034cdfbaefc0d92088307a6e807.js": "/contacts-firebase/precache-manifest.25084034cdfbaefc0d92088307a6e807.js",
+    "service-worker.js": "/contacts-firebase/service-worker.js",
+    "static/css/2.53823a3d.chunk.css.map": "/contacts-firebase/static/css/2.53823a3d.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/contacts-firebase/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.838cdcee.chunk.js.LICENSE.txt": "/contacts-firebase/static/js/2.838cdcee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f56c32ec.js",
+    "static/css/2.53823a3d.chunk.css",
+    "static/js/2.838cdcee.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.62b3e299.chunk.js"
+  ]
+}
