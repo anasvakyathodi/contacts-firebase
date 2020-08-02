@@ -50,6 +50,7 @@ const ContactForm = (props) => {
             value={values.mobile}
             name="mobile"
             onChange={handleInputChange}
+            required
           />
         </div>
         <div className="col-md-6 form-group">
@@ -59,6 +60,7 @@ const ContactForm = (props) => {
             value={values.email}
             name="email"
             onChange={handleInputChange}
+            required
           />
         </div>
       </div>

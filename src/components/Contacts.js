@@ -43,12 +43,12 @@ const Contacts = () => {
     <>
       {done === false ? (
         <center style={({ height: "100vh" }, { marginTop: "40vh" })}>
-          <ReactLoading type={"bars"} color={"black"} />
+          <ReactLoading type={"bars"} color={"#00b4d8"} />
         </center>
       ) : (
         <div className="container">
           <div className="jumbotron jumbotron-fluid">
-            <h2 className="text-center">Contact Register</h2>
+            <h2 className="text-center head-text">Contact Register</h2>
           </div>
 
           <div className="row">
