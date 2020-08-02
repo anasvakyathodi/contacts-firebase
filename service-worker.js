@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/contacts-firebase/precache-manifest.e2cf51d132d028663b777ba48482ec89.js"
+  "/contacts-firebase/precache-manifest.2510c39f52b657e5d4511613e5b9bc8d.js"
 );
 
 self.addEventListener('message', (event) => {
