@@ -43,7 +43,7 @@ const ContactForm = (props) => {
         />
       </div>
       <div className="form-row">
-        <div className="col-md-6 col-auto form-group">
+        <div className="col-md-6 form-group">
           <input
             className="form-control"
             placeholder="Mobile"
@@ -52,7 +52,7 @@ const ContactForm = (props) => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="col-md-6 col-auto form-group">
+        <div className="col-md-6 form-group">
           <input
             className="form-control"
             placeholder="Email"
