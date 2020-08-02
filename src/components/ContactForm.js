@@ -31,54 +31,35 @@ const ContactForm = (props) => {
   };
 
   return (
-    <form autoComplete="off" onSubmit={handleSubmit} className="container">
-      <div className="form-group input-group">
-        <div className="input-group-prepend">
-          <div className="input-group-text">
-            <i className="fas fa-user"></i>
-          </div>
-          <input
-            className="form-control"
-            placeholder="Full Name"
-            value={values.fullname}
-            name="fullname"
-            onChange={handleInputChange}
-            required
-          />
-        </div>
+    <form autoComplete="off" onSubmit={handleSubmit}>
+      <div className="form-group">
+        <input
+          className="form-control"
+          placeholder="Full Name"
+          value={values.fullname}
+          name="fullname"
+          onChange={handleInputChange}
+          required
+        />
       </div>
       <div className="form-row">
         <div className="col-md-6 col-auto form-group">
-          <div className=" input-group ">
-            <div className="input-group-prepend">
-              <div className="input-group-text">
-                <i className="fas fa-mobile"></i>
-              </div>
-              <input
-                className="form-control"
-                placeholder="Mobile"
-                value={values.mobile}
-                name="mobile"
-                onChange={handleInputChange}
-              />
-            </div>
-          </div>
+          <input
+            className="form-control"
+            placeholder="Mobile"
+            value={values.mobile}
+            name="mobile"
+            onChange={handleInputChange}
+          />
         </div>
         <div className="col-md-6 col-auto form-group">
-          <div className=" input-group">
-            <div className="input-group-prepend">
-              <div className="input-group-text">
-                <i className="fas fa-envelope"></i>
-              </div>
-              <input
-                className="form-control"
-                placeholder="Email"
-                value={values.email}
-                name="email"
-                onChange={handleInputChange}
-              />
-            </div>
-          </div>
+          <input
+            className="form-control"
+            placeholder="Email"
+            value={values.email}
+            name="email"
+            onChange={handleInputChange}
+          />
         </div>
       </div>
       <div className="form-group">
