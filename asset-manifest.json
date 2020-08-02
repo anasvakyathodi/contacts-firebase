@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/contacts-firebase/static/css/main.5f361e03.chunk.css",
-    "main.js": "/contacts-firebase/static/js/main.7496092c.chunk.js",
-    "main.js.map": "/contacts-firebase/static/js/main.7496092c.chunk.js.map",
+    "main.css": "/contacts-firebase/static/css/main.c3a38988.chunk.css",
+    "main.js": "/contacts-firebase/static/js/main.1429a403.chunk.js",
+    "main.js.map": "/contacts-firebase/static/js/main.1429a403.chunk.js.map",
     "runtime-main.js": "/contacts-firebase/static/js/runtime-main.f56c32ec.js",
     "runtime-main.js.map": "/contacts-firebase/static/js/runtime-main.f56c32ec.js.map",
     "static/css/2.53823a3d.chunk.css": "/contacts-firebase/static/css/2.53823a3d.chunk.css",
-    "static/js/2.f50cbcea.chunk.js": "/contacts-firebase/static/js/2.f50cbcea.chunk.js",
-    "static/js/2.f50cbcea.chunk.js.map": "/contacts-firebase/static/js/2.f50cbcea.chunk.js.map",
+    "static/js/2.1313f9ea.chunk.js": "/contacts-firebase/static/js/2.1313f9ea.chunk.js",
+    "static/js/2.1313f9ea.chunk.js.map": "/contacts-firebase/static/js/2.1313f9ea.chunk.js.map",
     "index.html": "/contacts-firebase/index.html",
-    "precache-manifest.ce9391d84c778e3e2035ac23e6c6d765.js": "/contacts-firebase/precache-manifest.ce9391d84c778e3e2035ac23e6c6d765.js",
+    "precache-manifest.5fa83ab20f5b45279aae4240a52d355d.js": "/contacts-firebase/precache-manifest.5fa83ab20f5b45279aae4240a52d355d.js",
     "service-worker.js": "/contacts-firebase/service-worker.js",
     "static/css/2.53823a3d.chunk.css.map": "/contacts-firebase/static/css/2.53823a3d.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/contacts-firebase/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f50cbcea.chunk.js.LICENSE.txt": "/contacts-firebase/static/js/2.f50cbcea.chunk.js.LICENSE.txt"
+    "static/css/main.c3a38988.chunk.css.map": "/contacts-firebase/static/css/main.c3a38988.chunk.css.map",
+    "static/js/2.1313f9ea.chunk.js.LICENSE.txt": "/contacts-firebase/static/js/2.1313f9ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f56c32ec.js",
     "static/css/2.53823a3d.chunk.css",
-    "static/js/2.f50cbcea.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.7496092c.chunk.js"
+    "static/js/2.1313f9ea.chunk.js",
+    "static/css/main.c3a38988.chunk.css",
+    "static/js/main.1429a403.chunk.js"
   ]
 }
