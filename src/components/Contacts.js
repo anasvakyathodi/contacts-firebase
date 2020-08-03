@@ -36,6 +36,7 @@ const Contacts = () => {
         setDone(true);
       } else {
         setContactObjects({});
+        setDone(true);
       }
     });
   }, []);
