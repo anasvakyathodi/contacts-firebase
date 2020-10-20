@@ -8,7 +8,7 @@ const ContactForm = (props) => {
   };
   const [values, setValues] = useState(initialState);
   useEffect(() => {
-    if (props.currentId == "") {
+    if (props.currentId === "") {
       setValues({
         ...initialState,
       });
@@ -17,6 +17,7 @@ const ContactForm = (props) => {
         ...props.contactObjects[props.currentId],
       });
     }
+    // eslint-disable-next-line
   }, [props.currentId, props.contactObjects]);
   const handleInputChange = (e) => {
     var { name, value } = e.target;
@@ -77,7 +78,7 @@ const ContactForm = (props) => {
         <input
           type="submit"
           className="btn btn-primary btn-block"
-          value={props.currentId == "" ? "save" : "Update"}
+          value={props.currentId === "" ? "save" : "Update"}
         />
       </div>
     </form>
